@@ -1,7 +1,26 @@
 body {
-  background-color: aqua;
+  background-color: hsl(180, 69%, 45%);
 }
 h1 {
   font-size: 40px;
-  color: coral;
+  color: rgb(175, 87, 55);
+}
+
+.my-flex-container {
+  justify-content: space-evenly;
+  flex-grow: 4;
+  border: 5pt solid EE621F;
+  display: flex;
+}
+
+article {
+  border: 5pt solid #b1600f;
+  height: 144pt;
+  width: 144pt;
+}
+
+/* Just for fun ;) */
+article:hover {
+  border-color: #EE2D7A;
+  border-style: dotted;
 }
